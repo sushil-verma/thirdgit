@@ -20,4 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    @Override
+    protected void onDestroy() {
+
+        Toast.makeText(getApplicationContext(), "hi", Toast.LENGTH_SHORT).show();
+
+    }
 }
